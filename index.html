@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="quiz-container">
+      <div class="header">
+        <h1>🧠 Modern Quiz App</h1>
+        <select id="difficulty" onchange="setDifficulty()">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <div class="quiz-box">
+        <div id="timer">⏱️ 10s</div>
+        <div id="imageContainer"></div>
+        <div id="question" class="question">Question Text</div>
+        <div id="options" class="options"></div>
+        <button id="nextBtn" onclick="nextQuestion()">Next</button>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
