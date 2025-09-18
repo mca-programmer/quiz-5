@@ -23,7 +23,7 @@ Simple quiz app using HTML, CSS, and JavaScript.
 
 ## 📂 Project Structure
 
-quiz-6<br>
+quiz<br>
 ├── index.html <br>
 ├── style.css <br>
 └── script.js 
